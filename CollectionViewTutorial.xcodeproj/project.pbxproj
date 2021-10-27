@@ -13,6 +13,10 @@
 		AFA8C35227249D4F00AF8E90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFA8C35027249D4F00AF8E90 /* Main.storyboard */; };
 		AFA8C35427249D5500AF8E90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFA8C35327249D5500AF8E90 /* Assets.xcassets */; };
 		AFA8C35727249D5500AF8E90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFA8C35527249D5500AF8E90 /* LaunchScreen.storyboard */; };
+		AFA8C3652724AA4100AF8E90 /* TeamTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA8C3632724AA4100AF8E90 /* TeamTableViewCell.swift */; };
+		AFA8C3662724AA4100AF8E90 /* TeamTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AFA8C3642724AA4100AF8E90 /* TeamTableViewCell.xib */; };
+		AFE7204F27288EE8006BA17B /* MovieCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE7204E27288EE8006BA17B /* MovieCollectionViewCell.swift */; };
+		AFE720512728905D006BA17B /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE720502728905D006BA17B /* Movie.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		AFA8C35327249D5500AF8E90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AFA8C35627249D5500AF8E90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AFA8C35827249D5500AF8E90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFA8C3632724AA4100AF8E90 /* TeamTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamTableViewCell.swift; sourceTree = "<group>"; };
+		AFA8C3642724AA4100AF8E90 /* TeamTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TeamTableViewCell.xib; sourceTree = "<group>"; };
+		AFE7204E27288EE8006BA17B /* MovieCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCollectionViewCell.swift; sourceTree = "<group>"; };
+		AFE720502728905D006BA17B /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +71,28 @@
 				AFA8C35327249D5500AF8E90 /* Assets.xcassets */,
 				AFA8C35527249D5500AF8E90 /* LaunchScreen.storyboard */,
 				AFA8C35827249D5500AF8E90 /* Info.plist */,
+				AFA8C36027249DEC00AF8E90 /* Model */,
+				AFA8C3672724AA5000AF8E90 /* View */,
+				AFE7204E27288EE8006BA17B /* MovieCollectionViewCell.swift */,
 			);
 			path = CollectionViewTutorial;
+			sourceTree = "<group>";
+		};
+		AFA8C36027249DEC00AF8E90 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AFE720502728905D006BA17B /* Movie.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AFA8C3672724AA5000AF8E90 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AFA8C3632724AA4100AF8E90 /* TeamTableViewCell.swift */,
+				AFA8C3642724AA4100AF8E90 /* TeamTableViewCell.xib */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +153,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFA8C3662724AA4100AF8E90 /* TeamTableViewCell.xib in Resources */,
 				AFA8C35727249D5500AF8E90 /* LaunchScreen.storyboard in Resources */,
 				AFA8C35427249D5500AF8E90 /* Assets.xcassets in Resources */,
 				AFA8C35227249D4F00AF8E90 /* Main.storyboard in Resources */,
@@ -140,7 +169,10 @@
 			files = (
 				AFA8C34F27249D4F00AF8E90 /* ViewController.swift in Sources */,
 				AFA8C34B27249D4F00AF8E90 /* AppDelegate.swift in Sources */,
+				AFE720512728905D006BA17B /* Movie.swift in Sources */,
 				AFA8C34D27249D4F00AF8E90 /* SceneDelegate.swift in Sources */,
+				AFE7204F27288EE8006BA17B /* MovieCollectionViewCell.swift in Sources */,
+				AFA8C3652724AA4100AF8E90 /* TeamTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
